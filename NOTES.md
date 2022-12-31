@@ -19,3 +19,12 @@
       pick out the odds, print it
 
   'The higher the level of abstraction that you work with, the more declarative your code is.'
+
+  # built-in JS functions
+
+    - forEach is preferred for iteration over loops
+      it accepts a callback function as an argument
+      forEach(function (element, index, array))
+
+    - Object.entries returns an array of arrays, each containing K-V pairs from an object
+    - Object.fromEntries reverses that
