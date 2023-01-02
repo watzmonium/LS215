@@ -28,3 +28,19 @@
 
     - Object.entries returns an array of arrays, each containing K-V pairs from an object
     - Object.fromEntries reverses that
+
+  # string processing functions
+    String
+      - .search, .match, .replace
+      - match returns an array with object properties. index 0 is the match, then it has keys with other stuff
+    RegExp
+      - .exec, .test 
+
+    more String methods
+      - indexOf, lastIndexOf
+      - replace - only first occurance unless you use /g regex i.e.
+        `let state = 'Mississippi';`
+        `state.replace(/s/g, 'q');  // "Miqqiqqippi"`
+      - substring (seems like slice?)
+        unlike slice, substring will swap the 2 arguments if a > b, slice returns ''
+        slice uses negative indecies for end of string 

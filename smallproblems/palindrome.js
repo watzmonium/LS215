@@ -8,6 +8,13 @@ const substrings = string => {
   return subs;
 }
 
+const palindromes = string => {
+  let subs = substrings(string).filter(str => str.length > 1);
+  return subs.filter(str => str === str.split('').reverse('').join(''));
+}
+
+
+
 console.log(palindromes('abcd'));       // []
 console.log(palindromes('madam'));      // [ "madam", "ada" ]
 
