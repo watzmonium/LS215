@@ -44,3 +44,74 @@
       - substring (seems like slice?)
         unlike slice, substring will swap the 2 arguments if a > b, slice returns ''
         slice uses negative indecies for end of string 
+
+  # PEDAC
+    *Problem*
+      - take notes while parsing the problem
+      - verify/refute understanding. ask questions!
+      - DO NOT ASSUME ALL REQUIREMENTS ARE EXPLICIT!!
+      - Extract the implicit requirements and make them explicit
+        - requirements can be shown with examples or not at all!
+
+      *TO WORK ON*
+        - consider the 'bad' inputs even if the problem explicitly says otherwise
+        - explicitly write down problem patterns
+    
+    *examples and test cases*
+      - happy paths
+      - edge cases
+      - null, empty strings, empty arrays
+      - boundary conditions
+      - repeat/duplicate values
+      - data specific considerations (i.e. case for strings)
+      - failures and bad input
+
+      # Writing good test cases
+        - can it handle different input types?
+        - are there special values that might mess it up?
+          - for numbers infinity, NaN, floats
+          - strings empty strings or weird strings
+          - empty objects or arrays
+          - sparse arrays or an array with an object property
+
+    *data structures*
+      - pick a good one - Chris like hashes a lot
+
+    *algorithms*
+      - take a step back if when you're solving it you cant figure out what to do next
+      - avoid solving big problems - break into smaller!
+      - try to solve a problem in 1-2 sentences
+        - if you can't, raise your abstraction level
+    
+    # risks
+      - ACTUALLY solve the problem! If you don't P/E, you risk this.
+        - ALL OF PEDAC is a de-risking process
+      - DON'T put off the hard part until the end! START by solving the hard part when your mental energy is highest!
+
+  
+# Study steps
+  1) do the working aloud problems whenever I get the chance Y
+  2) When I don't have the chance, work through regex book Y
+
+  3) Work on asking questions - ASSUMING NOTHING
+  4) IF YOU ARE GIVEN A SECOND OR THIRD PROBLEM, START PEDAC OVER!
+  5) figure out HOW the algorithm is going to work before you code
+      With very specific steps
+
+# strings:
+  empty strings, upper, lower, all characters
+
+# arrays:
+  empty, SPARSE, mixed content
+
+# args
+  more than, less than, different input types?
+
+# numbers
+  negative, 0, special numbers
+
+# return values
+  return if x?
+
+# objects
+  deep check?
